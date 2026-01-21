@@ -7,7 +7,7 @@ conda activate <name_env>
 conda search <name_package>
 conda install <name_package> #nếu không được phải sử dụng pip install
 conda install <name_package>=<version>
-conda list #kiểm tra các package đã cài
+conda env list #kiểm tra các package đã cài
 
 conda create -n <name_env> python=<version>
 
