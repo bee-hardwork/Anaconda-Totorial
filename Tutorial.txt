@@ -1,0 +1,13 @@
+ mkdir testConda
+cd testConda
+conda create --name <name_env>
+ls -la
+conda env list
+conda activate <name_env>
+conda search <name_package>
+conda install <name_package> #nếu không được phải sử dụng pip install
+conda install <name_package>=<version>
+conda list #kiểm tra các package đã cài
+
+
+conda remove --name my_first --all
