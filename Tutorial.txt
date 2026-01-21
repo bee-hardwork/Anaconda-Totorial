@@ -12,4 +12,4 @@ conda list #kiểm tra các package đã cài
 conda create -n <name_env> python=<version>
 
 
-conda remove --name my_first --all
+conda remove --name <name_env> --all
